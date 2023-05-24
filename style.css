@@ -265,3 +265,59 @@ li {
   list-style: inside;
   color: #6c6c6c;
 }
+
+@media screen and (max-width: 959px) {
+  .container {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .images {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .img1,
+  .img2,
+  .img3 {
+    width: 250px;
+    height: 250px;
+    border-radius: 8px;
+    margin: 3px;
+  }
+  .temps {
+    width: 300px;
+  }
+  h1 {
+    font-size: 30px;
+    font: bold;
+    color: #393c6c;
+    text-align: center;
+  }
+  .baseline {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 14px;
+    color: #6c6c6c;
+    text-align: center;
+  }
+  #logo {
+    width: 150px;
+    height: 31.47px;
+  }
+
+  section {
+    background-color: white;
+    padding: 15px 30px 15px 30px;
+    border-radius: 5px;
+    /* height: 1179px; */
+  }
+
+  p {
+    line-height: 12px;
+    margin-bottom: 8px;
+  }
+}
